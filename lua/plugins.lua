@@ -40,7 +40,7 @@ return require('packer').startup(function(use)
     ---------------------------------------
     use 'https://github.com/vim-airline/vim-airline'
     use 'https://github.com/preservim/nerdtree'
-    use 'airblade/vim-gitgutter'
+    use 'https://github.com/airblade/vim-gitgutter'
     use 'tanvirtin/monokai.nvim'
     use { 'neovim/nvim-lspconfig' }
     use { 'hrsh7th/nvim-cmp', config = [[require('config.nvim-cmp')]] }    
